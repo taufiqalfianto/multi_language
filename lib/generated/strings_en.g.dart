@@ -59,8 +59,8 @@ class TranslationsHomeEn {
 	/// en: 'Home Page'
 	String get title => 'Home Page';
 
-	/// en: 'Welcome, {name}!'
-	String get welcome => 'Welcome, {name}!';
+	/// en: 'Welcome, {name}'
+	String get welcome => 'Welcome, {name}';
 }
 
 // Path: buttons
@@ -107,7 +107,7 @@ extension on Translations {
 		switch (path) {
 			case 'hello': return 'Hello';
 			case 'home.title': return 'Home Page';
-			case 'home.welcome': return 'Welcome, {name}!';
+			case 'home.welcome': return 'Welcome, {name}';
 			case 'buttons.save': return 'Save';
 			case 'buttons.cancel': return 'Cancel';
 			case 'kSwitch.to_indonesian': return 'Switch to Indonesian';
