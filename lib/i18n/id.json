@@ -1,0 +1,15 @@
+{
+  "hello": "Halo",
+  "home": {
+    "title": "Halaman Utama",
+    "welcome": "Selamat Datang, {name}"
+  },
+  "buttons": {
+    "save": "Simpan",
+    "cancel": "Batal"
+  },
+  "switch": {
+    "to_indonesian": "Switch to Indonesian",
+    "to_english": "Switch to English"
+  }
+}

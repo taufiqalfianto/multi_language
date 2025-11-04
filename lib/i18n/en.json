@@ -1,0 +1,15 @@
+{
+  "hello": "Hello",
+  "home": {
+    "title": "Home Page",
+    "welcome": "Welcome, {name}"
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "switch": {
+    "to_indonesian": "Switch to Indonesian",
+    "to_english": "Switch to English"
+  }
+}

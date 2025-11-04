@@ -1,0 +1,14 @@
+targets:
+  $default:
+    sources:
+      - lib/**
+      - $package$
+    builders:
+      slang_build_runner:
+        options:
+          base_locale: en
+          supported_locales: [en, id]
+          input_directory: lib/i18n
+          output_directory: lib/generated
+          output_filename: strings.g.dart
+          input_file_pattern: .json
